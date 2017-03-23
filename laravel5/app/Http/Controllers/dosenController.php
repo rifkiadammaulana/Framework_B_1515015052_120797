@@ -7,11 +7,11 @@ use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\dosen;
 
-class dosenController extends Controller
+class dosencontroller extends Controller
 {
     public function awal()
     {
-    		return "Hello dari dosenController";
+    	return "Hello dari Dosencontroller";
     }
     public function tambah()
     {
@@ -20,13 +20,11 @@ class dosenController extends Controller
     public function simpan()
     {
     	$dosen = new dosen();
-    	$dosen->name = 'rifki adam maulana';
-       	$dosen->nip = '1515015051';
-       	$dosen->alamat = 'Jl.Samarinda';
-       	$dosen->pengguna_id = 'A001';
-       	$dosen->save();
-       	return"data dengan username {$dosen->nama} telah disimpan";
-    	
+    	$dosen->nama='Rizky Kiwa';
+    	$dosen->nip='9015462839';
+    	$dosen->alamat='Jalan Pengangsaan Timur';
+    	$dosen->pengguna_id=1;
+    	$dosen->save();
+    	return "data Dosen dengan nama {$dosen->nama} telah disimpan";
     }
 }
-    
