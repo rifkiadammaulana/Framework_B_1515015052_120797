@@ -10,8 +10,8 @@
 		<thead>
 			<tr>
 				<th> No. </th>
-				<th> Username </th>
-				<th> Password </th>
+				<th> Title </th>
+				<th> Keterangan </th>
 				<th> Aksi </th>
 			</tr>
 		</thead>
@@ -20,8 +20,8 @@
 			@foreach ($data as $matakuliah)
 				<tr>
 					<td>{{ $x++ }}</td>
-					<td>{{ $matakuliah->username or 'username kosong' }}</td>
-					<td>{{ $matakuliah->password or 'password kosong' }}</td>
+					<td>{{ $matakuliah->title or 'title kosong' }}</td>
+					<td>{{ $matakuliah->keterangan or 'keterangan kosong' }}</td>
 				
 					<td>
 						<div class="btn-group" role="group">

@@ -7,14 +7,14 @@
 	</div>
 	<table class="table">
 			<tr>
-				<td>Username</td>
+				<td>Title</td>
 				<td>:</td>
-				<td>{{ $matakuliah->username }}</td>
+				<td>{{ $matakuliah->title }}</td>
 			</tr>
 			<tr>
-				<td>Password</td>
+				<td>Keterangan</td>
 				<td>:</td>
-				<td>{{ $matakuliah->password }}</td>
+				<td>{{ $matakuliah->keterangan }}</td>
 			</tr>
 			<tr>
 				<td class="col-xs-4"> Dibuat tanggal</td>

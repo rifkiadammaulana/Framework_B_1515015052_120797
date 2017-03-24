@@ -5,9 +5,10 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
-use App\matakuliah;
 
-class matakuliahcontroller extends Controller
+use App\Matakuliah;
+
+class MatakuliahController extends Controller
 {
     public function awal()
     {
