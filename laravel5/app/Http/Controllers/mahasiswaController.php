@@ -10,6 +10,9 @@ use App\Mahasiswa;
 
 class MahasiswaController extends Controller
 {
+    public function mahasiswa(){
+        echo"Hello dunia";
+    }
     public function awal(){
     	return "Hello dari MahasiswaController";
     }
@@ -18,9 +21,9 @@ class MahasiswaController extends Controller
     }
     public function simpan(){
     	$mahasiswa = new Mahasiswa();
-    	$mahasiswa->nama = "Andre Prasetya Rahman";
-    	$mahasiswa->nim = "1515015080";
-    	$mahasiswa->alamat = "Perjuangan 07";
+    	$mahasiswa->nama = "Rifki Adam  Maulana";
+    	$mahasiswa->nim = "1515015052";
+    	$mahasiswa->alamat = "mt haryono";
     	$mahasiswa->pengguna_id = 3;
     	$mahasiswa->save();
     	return "Data Mahasiswa dengan Nama {$mahasiswa->nama} telah disimpan";
