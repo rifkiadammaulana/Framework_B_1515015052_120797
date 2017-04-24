@@ -38,8 +38,8 @@
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">ASSALAMUALAIKUM KAWAN :)</div>
+                <div class="title">RIFKI ADAM MAULANA</div>
             </div>
         </div>
     </body>
-</html>
+</html> 
